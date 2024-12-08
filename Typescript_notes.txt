@@ -1,0 +1,86 @@
+Two types of programming languges
+
+A) Statically-Typed
+B) Dynamically-Typed
+-------------------------------------------
+
+A) Statically-Typed
+(C++, JAVA, C#)
+----------
+# int number = 10;
+----------
+B) Dynamically-Typed
+(JavaScript, Python, Ruby)
+# let number = 10;
+# number = "a";
+
+---------------------------------------------
+
+TypeScript helps with-
+- Type checking 
+- Code Completion
+- Refactoring
+- New Features
+
+Benefits-
+- Static Typing
+- Code completion
+- Refactoring
+- Shorthand notations
+
+Drawbacks-
+- Compilation (.ts --> compiler --> .js) also called as Transpilation
+- Discipline in Coding
+
+It is said (Typescript for Medium to large projects & JavaScript for Simple Objects)
+
+---------------------------------------------
+command -> 
+>>> tsc --init (for tsc configuration)
+>>> tsc (just to compile the code in js)
+---------------------------------------------
+
+Some execution policy related command-
+
+>>> Get-ExecutionPolicy (check)
+
+# Set a Less Restrictive Policy Temporarily allow scripts (applies only to the current session):
+
+>>> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+# Alternatively, set it for the entire user scope (persistent):
+
+>>> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+
+# Restricted: No scripts are allowed to run (default on many systems).
+
+# RemoteSigned: Locally created scripts can run, but downloaded scripts need to be signed.
+
+# Unrestricted: All scripts can run but show a warning for unsigned ones.
+---------------------------------------------
+
+Built-in types of JavaScript- 
+- number
+- string 
+- boolean
+- null
+- undefined
+- object
+
+(some extended)Built-in types in TypeScript-
+
+- any
+- unknown
+- never
+- enum
+- tuple
+
+----------------------------------
+# launch.json -> prelaunch - for vscode to use the typescript compiler to build our application using this configuration file
+
+# A tuple is a fixed length array, where each element has a particular type.
+
+# Using the const keyword for variables, this way compiler generates more optimized javascript code
+
+#
